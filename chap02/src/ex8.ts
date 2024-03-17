@@ -1,0 +1,1 @@
+type K = keyof (Person | Lifespan); // 타입이 never

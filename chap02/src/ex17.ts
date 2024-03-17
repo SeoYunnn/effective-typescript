@@ -1,0 +1,13 @@
+interface Cylinder {
+    radius: number;
+    height: number;
+}
+
+const Cylinder = (radius: number, height: number) => ({radius, height});
+
+function calculateVolume(shape: unknown) {
+    if (shape instanceof Cylinder) {
+        // shape.radius;
+        // TS2339: Property radius does not exist on type {}
+    }
+}
