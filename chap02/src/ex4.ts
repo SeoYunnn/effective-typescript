@@ -1,0 +1,1 @@
+const reponse = fetch("http://example.com");
