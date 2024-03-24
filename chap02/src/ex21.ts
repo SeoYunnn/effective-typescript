@@ -10,3 +10,5 @@ declare let fn: T4;
 const c = new fn(); // 타입이 Cylinder
 
 type C = InstanceType<typeof Cylinder2>; // 타입이 Cylinder
+
+console.log(v4); // function 출력
